@@ -1,0 +1,34 @@
+#wrapper
+  h1
+    img src=asset_url("Clock_alt.png") /
+    | CommonTime
+    sup a tool aimed to simplify finding common working hours for different timezones
+  #main
+    #myTime
+      h2 Worker
+      img default-src=asset_url("freelancer.png") src=asset_url("freelancer.png") /
+      select.zoneSelector name="myTime" 
+      input placeholder=("Enter email") type="email" /
+    .chartWrap
+      #chart
+      #hoursFormatSelectorWrapper
+        select name="am_pm_switch" 
+          option selected="" value="24" 24 hours format
+          option value="12" 12 hours format
+    #clientTime
+      h2 Client
+      img default-src=asset_url("client.png") src=asset_url("client.png") /
+      select.zoneSelector name="clientTime" 
+      input placeholder=("Enter email") type="email" /
+  footer
+    #instruction.mb10
+      h3 Instructions
+      | To adjust freelancer's and client's working hours resize colored curves by dragging knobs (small circles) at their ends.
+      | Email is used to load your gravatar.
+      | Each activity i.e. updating emails, changing timezone or time format (12/24) will be immediately reflected in url.
+      | The url then can be used to share current state of the timer to client and vice versa.
+    .center-text.mb10
+      | Crafted by 
+      a href="http://pashka4281.github.io/about/" target="_blank" Pavlo Sirous
+      |  with ♥ in Ukraine.
+    .center-text.mb10 2015

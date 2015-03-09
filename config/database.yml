@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: commontime_dev
+  host: localhost
+  pool: 5
+  username: postgres
+  password: admin
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: commontime_test
+  host: localhost
+  pool: 5
+  username: postgres
+  password: admin

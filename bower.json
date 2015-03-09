@@ -1,0 +1,21 @@
+{
+  "name": "commontime-rails",
+  "version": "0.0.0",
+  "authors": [
+    "Paul Ser <pashka4281@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "raphael": "~2.1.3",
+    "select2": "~3.5.2",
+    "jquery": "~2.1.3"
+  }
+}
